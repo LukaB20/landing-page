@@ -23,7 +23,7 @@
     --quote-background: #E5E7EB;
     --quote-text-size: 36px;
     --quote-text-style: light italic;
-    --quote-text-color: #1F2937;
+    --quote-text-color: #1f2937;
 }
 
 /*Global classes*/
@@ -43,6 +43,15 @@
 .pbt-3{
     padding-top: 3rem;
     padding-bottom: 3rem;
+}
+
+.pbt-5{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.pb-3{
+    padding-bottom: 7rem;
 }
 
 .btn-filled{
@@ -182,3 +191,24 @@
 }
 
 /*End of information section*/
+
+/*Quote section*/
+
+.quote-container{
+    background-color: var(--quote-background);
+}
+
+.quote-container .quote-text{
+    font-size: var(--quote-text-size);
+    font-style: italic;
+    font-weight: lighter;
+    color: var(--quote-text-color);
+}
+
+.author{
+    font-weight: bold;
+    text-align: end;
+    font-size: 25px;
+}
+
+/*End of quote section*/
