@@ -1,0 +1,19 @@
+
+:root {
+    --dark-background: #1F2937;
+    --main-text-size: 48px;
+    --main-text-weight: bold;
+    --main-text-color: #F9FAF8;
+    --secondary-text-size: 18px;
+    --secondary-text-color: #E5E7EB;
+    --header-logo-size: 18px;
+    --header-logo-color: #F9FAF8;
+    --cta-background: #3882F6;
+    --info-text-size: 36px;
+    --info-text-weight: bold;
+    --info-text-color: #1F2937;
+    --quote-background: #E5E7EB;
+    --quote-text-size: 36px;
+    --quote-text-style: light italic;
+    --quote-text-color: #1F2937;
+}
