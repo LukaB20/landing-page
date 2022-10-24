@@ -40,6 +40,11 @@
     margin-bottom: 1rem;
 }
 
+.pbt-3{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 .btn-filled{
     color: white;
     background-color: var(--cta-background);
@@ -143,3 +148,37 @@
     /*End of hero section*/
 
 /*End of header*/
+
+/*Information section*/
+
+.information-title{
+    text-align: center;
+    color: var(--info-text-color);
+    font-size: var(--info-text-size);
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+.cards .card{
+    flex: 1;
+}
+
+.card-image{
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.card-text{
+    text-align: center;
+    font-size: var(--secondary-text-size);
+}
+
+/*End of information section*/
