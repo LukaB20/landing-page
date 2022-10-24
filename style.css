@@ -61,6 +61,7 @@
     border-radius: 5px;
     padding: 5px 25px;
     font-size: 1.2rem;
+    cursor: pointer;
 }
 
 .btn-outline{
@@ -68,8 +69,9 @@
     background-color: var(--cta-background);
     border: 2px solid white;
     border-radius: 5px;
-    font-weight: bold;
-    padding: 5px 20px;
+    padding: 5px 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
 /*End of gloval classes*/
@@ -212,3 +214,38 @@
 }
 
 /*End of quote section*/
+
+/*Call to action*/
+
+.cta-container{
+    background-color: var(--cta-background);
+    color: white;
+    display: flex;
+    padding: 2rem;
+    border: 1px solid var(--cta-background);
+    border-radius: 10px;
+}
+
+.txt-div{
+    flex: 1;
+}
+
+.cta-btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+/*End of call to action*/
+
+/*Footer*/
+
+footer{
+    background-color: var(--dark-background);
+    color: white;
+    padding: 2rem 0rem;
+    text-align: center;
+}
+
+/*End of footer*/
